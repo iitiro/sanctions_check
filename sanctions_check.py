@@ -2,8 +2,8 @@
 import pandas as pd
 
 # Завантаження даних
-df_individuals = pd.read_excel("/Users/ikudinov/Documents/Code/!sanctions/04.03.2025 individual subjects.xlsx", sheet_name="Individual")
-df_legal = pd.read_excel("/Users/ikudinov/Documents/Code/!sanctions/04.03.2025 legal subjects.xlsx", sheet_name="Legal")
+df_individuals = pd.read_excel("./Code/!sanctions/04.03.2025 individual subjects.xlsx", sheet_name="Individual")
+df_legal = pd.read_excel("./Code/!sanctions/04.03.2025 legal subjects.xlsx", sheet_name="Legal")
 
 def search_individuals():
     while True:
